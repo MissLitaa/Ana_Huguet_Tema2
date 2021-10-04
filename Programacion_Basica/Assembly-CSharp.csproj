@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MyFirstScript.cs" />
+    <Compile Include="Assets\Scripts\vehicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
