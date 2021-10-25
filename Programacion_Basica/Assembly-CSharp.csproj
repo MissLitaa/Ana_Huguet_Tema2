@@ -53,8 +53,14 @@
     <UnityVersion>2020.3.19f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\MyFirstScript.cs" />
+    <Compile Include="Assets\Scripts\myFirstScript.cs" />
+    <Compile Include="Assets\Scripts\sayHello.cs" />
+    <Compile Include="Assets\Scripts\numeropar.cs" />
+    <Compile Include="Assets\Scripts\controller.cs" />
     <Compile Include="Assets\Scripts\vehicle.cs" />
+    <Compile Include="Assets\Scripts\bisiesto.cs" />
+    <Compile Include="Assets\Scripts\rotate.cs" />
+    <Compile Include="Assets\Scripts\guessTheNumber.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
