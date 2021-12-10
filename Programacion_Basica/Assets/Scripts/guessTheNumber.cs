@@ -7,6 +7,7 @@ public class guessTheNumber : MonoBehaviour
 {
     private int randNum;
     private int playerInput;
+    private int counter;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,7 @@ public class guessTheNumber : MonoBehaviour
                 if (playerInput < randNum)
                 {
                     Debug.Log("Este número es menor al de la máquina");
+                    
                 }
                 else if (playerInput > randNum)
                 {
@@ -37,7 +39,11 @@ public class guessTheNumber : MonoBehaviour
                 else
                 {
                     Debug.Log("Este es el número que ha pensado la máquina");
+                    Destroy(gameObject);
+                    Debug.Log($"Intentos: {counter}");
                 }
+
+                counter += 1;
             }
         }
     }
